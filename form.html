@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">              
+    <link rel="stylesheet" href="/css.font/all.min.css">
+</head>
+<body>
+    <form class="form-container" onsubmit = "return validate()">
+        <h3>LOGIN</h3>
+        <div class="form-1">
+            <label for="username">username</label><br>
+            <input type="text" placeholder="username" id="user" required>
+            <i class="fa fa-times u-times"></i>
+            <i class="fa fa-check u-check"></i>
+            <div class="user-invalid">invalid username</div> <br>
+        </div>
+        <div class="form-1">
+                <label for="password">password</label><br>
+                <input type="password" placeholder="password" id="password" required>
+                <i class="fa fa-times p-times"></i>
+                <i class="fa fa-check p-check"></i>
+                <div class="password-invalid">invalid password</div> <br>
+                </div>
+            <div class="form-1">
+                    <input type="submit" value="LOGIN" id="submit">
+                </div>
+        
+    </form>
+ <script src="form.js"></script>   
+</body>
+</html>
